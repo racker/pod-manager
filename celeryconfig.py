@@ -1,5 +1,5 @@
 # List of modules to import when celery starts.
-CELERY_IMPORTS = ('pod_manager.tasks.', )
+CELERY_IMPORTS = ('pod_manager.tasks.bootstrap_server', )
 
 # Result store settings.
 CELERY_RESULT_BACKEND = 'database'
