@@ -1,2 +1,3 @@
 *.log
 local_settings.py
+tasks.db
