@@ -5,3 +5,4 @@ redis==2.4.12
 
 # dev
 sqlalchemy==0.7.6
+pep8
