@@ -2,6 +2,13 @@ import logging
 
 from libcloud.compute.providers import Provider
 
+# General
+SSH_KEY_PATH = ''
+
+# After how many seconds server is considered stuck if it's still in the
+# 'bootstrapping' or 'provisioning' state and should be deleted.
+STUCK_SERVER_THRESHOLD = ''
+
 # Redis
 REDIS_HOST = '127.0.0.1'
 REDIS_PORT = 6379
