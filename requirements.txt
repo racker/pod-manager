@@ -2,6 +2,7 @@ apache-libcloud==0.9.1
 celery==2.5.3
 hiredis==0.1.1
 redis==2.4.12
+paramiko
 
 # dev
 sqlalchemy==0.7.6
